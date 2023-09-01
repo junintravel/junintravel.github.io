@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Planes - Junín Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="organizadorScript.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Junín Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="paquetes.html">Paquetes Turísticos</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="organizador.html">Organizador de Planes</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Organizador de Planes</h2>
+        
+        <!-- Preguntas de autorespuesta -->
+        <div class="preguntas-autorespuesta">
+            <h3>¿Cuál es tu destino preferido en Junín?</h3>
+            <input type="text" id="destinoPreferido">
+            
+            <h3>¿Cuántos días tienes disponibles para tu viaje?</h3>
+            <input type="number" id="diasDisponibles">
+        </div>
+        
+        <!-- Formulario para organizar planes -->
+        <h3>Organiza tus planes</h3>
+        <form id="formularioPlanes">
+            <label for="nombrePlan">Nombre del Plan:</label>
+            <input type="text" id="nombrePlan" required>
+            
+            <label for="fechaPlan">Fecha del Plan:</label>
+            <input type="date" id="fechaPlan" required>
+            
+            <label for="descripcionPlan">Descripción del Plan:</label>
+            <textarea id="descripcionPlan" required></textarea>
+            
+            <button type="button" onclick="agregarPlan()">Agregar Plan</button>
+        </form>
+        
+        <!-- Lista de planes -->
+        <h3>Tus Planes</h3>
+        <ul id="listaPlanes">
+            <!-- Los planes se mostrarán aquí -->
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Junín Travel - El aliado perfecto para tus viajes</p>
+    </footer>
+</body>
+</html>
+

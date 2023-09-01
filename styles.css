@@ -1,0 +1,95 @@
+/* Resetear estilos predeterminados del navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #008036;
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+/* Estilo para el enlace de navegación */
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    overflow: hidden;
+}
+
+nav ul li a:hover {
+    background-color: #4eac53;
+}
+
+/* Estilo para la sección de héroe */
+.hero {
+    background-color: #a4ce60;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Estilo para el botón de llamada a la acción */
+.cta-button {
+    display: inline-block;
+    background-color: #5fb768;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #7fab4c;
+}
+
+/* Estilo para la sección de características */
+.features {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.feature {
+    margin: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #008036;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para los enlaces del pie de página */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces del pie de página al pasar el mouse */
+footer a:hover {
+    text-decoration: underline;
+}
+
